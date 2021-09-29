@@ -137,6 +137,8 @@ let finalResult = []
             }
         }
     })
-    console.log(finalResult)
+    // console.log(finalResult)
+    return finalResult
 }
-matchCar();
+const matchedCars = matchCar();
+console.log(matchedCars)
