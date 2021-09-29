@@ -1,0 +1,20 @@
+{
+  "name": "wisedrive",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "csv": "^5.5.3",
+    "csv-parse": "^4.16.3",
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "moment": "^2.29.1",
+    "morgan": "~1.9.1",
+    "supertest": "^6.1.6"
+  }
+}
