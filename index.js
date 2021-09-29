@@ -1,7 +1,11 @@
 // const convertToJson = require ('./csvConverter')
+var path = require('path');
 
-// convertToJson('vehicles_bmw.csv', 'vehicles.json');
-// convertToJson('vehicle_types.csv', 'vehicleTypes.json');
+const vehiclesPath = path.join(__dirname, 'vehicles_bmw.csv');
+const vehicleTypesPath = path.join(__dirname, 'vehicle_types.csv');
+
+// convertToJson(vehiclesPath, 'vehicles.json');
+// convertToJson(vehicleTypesPath, 'vehicleTypes.json');
 
 const vehicle = require('./vehicles.json');
 const getMatch = require('./utils');
@@ -53,3 +57,4 @@ const matchCar = () => {
 }
 const matchedCars = matchCar();
 console.log(matchedCars)
+module.exports = matchCar;
