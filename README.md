@@ -1,4 +1,6 @@
 # wisedrive_Backend
+- This nodejs application matches car ID(s) to a given modelType. Initial data is gotten from two csv files which is converted to json.  
+
 ## Setup
 
 - Simply clone this repo on your pc, by typing out this command on your terminal.
