@@ -55,6 +55,6 @@ const matchCar = () => {
     })
     return finalResult
 }
-const matchedCars = matchCar();
-console.log(matchedCars)
+matchCar();
+// console.log(matchedCars)
 module.exports = matchCar;
