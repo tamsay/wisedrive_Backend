@@ -1,12 +1,3 @@
-// const convertToJson = require ('./csvConverter')
-var path = require('path');
-
-const vehiclesPath = path.join(__dirname, 'vehicles_bmw.csv');
-const vehicleTypesPath = path.join(__dirname, 'vehicle_types.csv');
-
-// convertToJson(vehiclesPath, 'vehicles.json');
-// convertToJson(vehicleTypesPath, 'vehicleTypes.json');
-
 const vehicle = require('./vehicles.json');
 const getMatch = require('./utils');
 
